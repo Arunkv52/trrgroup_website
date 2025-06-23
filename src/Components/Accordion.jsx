@@ -31,7 +31,7 @@ const HyperAccordion = () => {
         <div key={index} className='border border-gray-200 rounded'>
           <button
             onClick={() => toggle(index)}
-            className='flex items-center justify-between w-full p-4 text-left font-medium text-gray-800 bg-gray-50 hover:bg-gray-100'
+            className='flex items-center justify-between w-full p-4 text-left font-medium text-gray-800 bg-gray-300 hover:bg-gray-100'
           >
             <span>{item.title}</span>
             <svg
