@@ -1,7 +1,7 @@
 .SliderItem-1 {
     background:
         linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
-        url(../assets/volvo-truck.webp);
+        url(../assets/banners1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
 
 .SliderItem-2 {
     background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
-        url(../assets/volvo-2.jpg);
+        url(../assets/banners2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@
 }
 .SliderItem-3 {
     background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
-        url(../assets/tractors.webp);
+        url(../assets/banners3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@
 }
 .SliderItem-4 {
     background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
-        url(../assets/ajax-vehicle.jpg);
+        url(../assets/banners4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
