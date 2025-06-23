@@ -23,7 +23,7 @@ const Home = () => {
       <div className='w-full md:pt-10 pb-5'>
         <div className='ban-next px-5 md:px-25 py-10'>
           <p className='text-[14px]'>Hello and welcome</p>
-          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+          <h5 className='text-[18px] md:text-[19px] font-semibold pt-3'>
             TRR Tractors started in 2001 has its own prominent place in the
             agriculture equipment market in its territory establishing a strong
             customer base and confidence through the right suggestions for
@@ -32,7 +32,7 @@ const Home = () => {
             customer paving way for our growth which has given us the confidence
             to venture in to more & more endeavors.
           </h5>
-          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+          <h5 className='text-[18px] md:text-[19px] font-semibold pt-3'>
             TRR Automotive the second feather in the cap is a part of the TRR
             Group of companies, has been engaged in the sale & support of
             construction, quarry & earth moving equipment since 2007. With over
@@ -42,7 +42,7 @@ const Home = () => {
             growth in Indian economy expected sooner than later that India is
             poised to experience
           </h5>
-          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+          <h5 className='text-[18px] md:text-[19px] font-semibold pt-3'>
             TRR Group offers “one stop solution” to customers looking for
             Agricultural, Farming, Construction, quarry & road laying
             equipments, besides other applications through the various
