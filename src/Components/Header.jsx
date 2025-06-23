@@ -15,10 +15,10 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 font-medium text-gray-700">
-          <li className="cursor-pointer hover:text-[#ff0000]">Tractors</li>
-          <li className="cursor-pointer hover:text-[#ff0000]">Automotive</li>
-          <li className="cursor-pointer hover:text-[#ff0000]">Trucks and Buses</li>
-          <li className="cursor-pointer hover:text-[#ff0000]">Infra</li>
+          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Tractors</a></li>
+          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Automotive</a></li>
+          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Trucks and Buses</a></li>
+          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Infra</a></li>
         </ul>
 
         {/* Hamburger Icon */}

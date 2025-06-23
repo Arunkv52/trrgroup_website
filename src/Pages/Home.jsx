@@ -22,8 +22,8 @@ const Home = () => {
       </div>
 
       <div className='w-full md:pt-10 pb-5'>
-        <div className='ban-next px-5 md:px-25 pb-10'>
-          <p className='text-[14px]'>Hello and welcome</p>
+        <div className='ban-next px-5 md:px-25 pb-5'>
+          <p className='text-[14px] pt-3'>Hello and welcome</p>
           <h5 className='text-[18px] md:text-[35px] font-semibold pt-1'>
             TRR Tractors Best distributors
           </h5>
@@ -32,9 +32,8 @@ const Home = () => {
       </div>
       {/* Content side */}
       <div className='w-full pt-10'>
-        <div className='px-80 bg-gray-400 py-20'>
+        <div className='px-5 md:px-80 bg-gray-400 py-20'>
           <p className='text-[14px] pb-4'><strong>Hello and welcome</strong></p>
-
           <h3 className='text-2xl font-semibold md:text-4xl pb-2 md:pb-5'>
             About TRR Group
           </h3>
@@ -79,7 +78,7 @@ const Home = () => {
       </div>
 
       {/* Video Section */}
-      <div className='w-full md:px-15 md:py-5'>
+      <div className='w-full pt-10 md:px-15 md:py-5'>
         <div className='video_item px-5 md:px-10 md:py-10'>
           <video src={Volvo_videos} controls muted loop className='video-sec' />
         </div>
