@@ -21,22 +21,22 @@ const Footer = () => {
           <p className='text-[15px] pb-3'>Our Products</p>
           <ul className='text-[23px]'>
             <li>
-              <a href='#'>Tractors</a>
+              <a href="#" className='hover:text-red-700'>Tractors</a>
             </li>
-            <li><a href="#">Automotive</a></li>
-            <li><a href="#">Trucks</a></li>
-            <li><a href="#">Bus</a></li>
-            <li><a href="#">Infra</a></li>
+            <li><a href="#" className='hover:text-red-700'>Automotive</a></li>
+            <li><a href="#" className='hover:text-red-700'>Trucks</a></li>
+            <li><a href="#" className='hover:text-red-700'>Bus</a></li>
+            <li><a href="#" className='hover:text-red-700'>Infra</a></li>
           </ul>
         </div>
 
         <div className='w-full md:w-1/4 mb-6 md:mb-0 pb-7'>
           <p className='text-[15px] pb-[20px]'>Social</p>
           <ul className='text-[23px]'>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Youtube</a></li>
+            <li><a href="#" className='hover:text-red-700'>Facebook</a></li>
+            <li><a href="#" className='hover:text-red-700'>Instagram</a></li>
+            <li><a href="#" className='hover:text-red-700'>Twitter</a></li>
+            <li><a href="#" className='hover:text-red-700'>Youtube</a></li>
           </ul>
         </div>
 

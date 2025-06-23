@@ -22,10 +22,45 @@ const Home = () => {
       </div>
       <div className='w-full md:pt-10 pb-5'>
         <div className='ban-next px-5 md:px-25 py-10'>
-          <p className='text-[14px]'>EXPLORE VOLVO</p>
-          <h5 className='text-3xl font-semibold'>
-            For customers around the world
+          <p className='text-[14px]'>Hello and welcome</p>
+          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+            TRR Tractors started in 2001 has its own prominent place in the
+            agriculture equipment market in its territory establishing a strong
+            customer base and confidence through the right suggestions for
+            purchase of product to its customers and also the non tiring
+            customer support through which we have won the credibility of our
+            customer paving way for our growth which has given us the confidence
+            to venture in to more & more endeavors.
           </h5>
+          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+            TRR Automotive the second feather in the cap is a part of the TRR
+            Group of companies, has been engaged in the sale & support of
+            construction, quarry & earth moving equipment since 2007. With over
+            a decade of experience in the field, and association with JCB, the
+            world leader in Construction Equipments, TRR is well placed to take
+            full advantage of the construction & infrastructural much awaited
+            growth in Indian economy expected sooner than later that India is
+            poised to experience
+          </h5>
+          <h5 className='text-[18px] md:text-2xl font-semibold pt-3'>
+            TRR Group offers “one stop solution” to customers looking for
+            Agricultural, Farming, Construction, quarry & road laying
+            equipments, besides other applications through the various
+            organizations under its banner. . We embark on business solutions
+            starting with advice & consultancy in choosing the right product.
+            TRR is a leading player in mechanization of the farming sector and
+            in the infrastructure development activities in Tamilnadu, from
+            agricultural mechanization, construction, quarry activities to
+            building highways across Tamilnadu….truly “helping to build the
+            India of tomorrow”. TRR has ambitious growth plans & the vision to
+            achieve market leadership in all products & services it offers by
+            being a customer centric organization, as well as a preferred
+            employer. This helps in moving towards the vision of achieving
+            customer delight, through the technically superior & more productive
+            JCB products coupled with TRR’s world class product support, in
+            maximizing customer’s profitability.
+          </h5>
+          
         </div>
         <Carousal />
       </div>
@@ -38,9 +73,9 @@ const Home = () => {
       {/* next video section */}
       <div className='nxt-video flex flex-wrap md:px-25 px-5 py-10'>
         <div className='next-left w-full md:w-1/2'>
-          <p className='text-[14px]'>CAREER</p>
+          <p className='text-[14px]'>Hello and welcome</p>
           <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
-            For every person who wants to make real difference
+            Empowering Customers with Expert Support
           </h3>
           <HyperAccordion />
         </div>
@@ -61,13 +96,13 @@ const Home = () => {
       {/* Happy Drivers start */}
       <div className='w-full flex flex-wrap px-5 md:px-25 py-15'>
         <div className='hpy-left md:w-1/2'>
-          <p className='text-[14px]'>CAREER</p>
+          <p className='text-[14px]'>Hello and welcome </p>
           <h3 className='text-2xl font-semibold md:text-4xl pb-2 md:pb-0'>
             For every person who wants to make real difference
           </h3>
           <p className='pt-0 md:pt-5 pb-7'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, iste
-            possimus. Deleniti provident veniam commodi dolor? 
+            possimus. Deleniti provident veniam commodi dolor?
           </p>
         </div>
         <div className='hpy-right md:w-1/2'>
