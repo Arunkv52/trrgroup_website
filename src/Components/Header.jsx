@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Volvo-Logo.wine.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
 
@@ -11,7 +10,7 @@ const Header = () => {
       <div className="flex justify-between items-center px-5 py-4 md:px-10">
         {/* Logo */}
         <div className="head-logo">
-          <img src={Logo} alt="Volvo Logo" className="w-[130px] md:w-[158px]" />
+          <h6 className='text-[20px] font-semibold'>TRR Group</h6>
         </div>
 
         {/* Desktop Menu */}

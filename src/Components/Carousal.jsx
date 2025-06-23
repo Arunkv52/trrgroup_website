@@ -46,10 +46,10 @@ function Responsive () {
               <div className='SliderItem-1'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Trucks</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>
@@ -59,10 +59,10 @@ function Responsive () {
               <div className='SliderItem-2'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Cars</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>
@@ -72,10 +72,10 @@ function Responsive () {
               <div className='SliderItem-1'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Trucks</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>
@@ -85,10 +85,10 @@ function Responsive () {
               <div className='SliderItem-1'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Trucks</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>
@@ -98,10 +98,10 @@ function Responsive () {
               <div className='SliderItem-1'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Trucks</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>
@@ -111,10 +111,10 @@ function Responsive () {
               <div className='SliderItem-1'>
                 <div className='slider-content relative top-1/2 left-10 text-white'>
                   <p className='text-[12px]'>Trucks</p>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Driving
                   </h3>
-                  <h3 className='text-[35px] uppercase font-semibold'>
+                  <h3 className='text-3xl md:text-[35px] uppercase font-semibold'>
                     Progress
                   </h3>
                 </div>

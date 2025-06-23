@@ -13,17 +13,17 @@ const Home = () => {
     <>
       <Header />
       <div className='header-banner w-full'>
-        <h1 className='text-5xl px-10 relative top-1/2 text-white font-semibold'>
+        <h1 className='text-3xl md:text-5xl px-10 relative top-1/2 text-white font-semibold'>
           MADE FOR PEOPLE
         </h1>
-        <h1 className='text-5xl px-10 relative top-1/2 text-white font-semibold'>
+        <h1 className='text-3xl md:text-5xl px-10 relative top-1/2 text-white font-semibold'>
           BY PEOPLE
         </h1>
       </div>
       <div className='w-full md:pt-10 pb-5'>
         <div className='ban-next px-5 md:px-25 py-10'>
-          <p>EXPLORE VOLVO</p>
-          <h5 className='text-4xl font-semibold'>
+          <p className='text-[14px]'>EXPLORE VOLVO</p>
+          <h5 className='text-3xl font-semibold'>
             For customers around the world
           </h5>
         </div>
@@ -39,12 +39,12 @@ const Home = () => {
       <div className='nxt-video flex flex-wrap md:px-25 px-5 py-10'>
         <div className='next-left w-full md:w-1/2'>
           <p className='text-[14px]'>CAREER</p>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-7 md:pb-0'>
+          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
             For every person who wants to make real difference
           </h3>
           <HyperAccordion />
         </div>
-        <div className='next-right w-full md:w-1/2 p-2'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
           <img src={istock} alt='' />
         </div>
       </div>
@@ -52,20 +52,20 @@ const Home = () => {
       {/* Banner text */}
       <div className='w-full md:px-25 py-10'>
         <div className='banner-txt'>
-          <p className='text-white pt-10 text-[38px] text-center uppercase font-semibold'>
+          <p className='text-white pt-10 text-2xl md:text-[38px] text-center uppercase font-semibold'>
             Welcome TRR Group
           </p>
         </div>
       </div>
 
       {/* Happy Drivers start */}
-      <div className='w-full flex flex-wrap md:px-25 py-15'>
+      <div className='w-full flex flex-wrap px-5 md:px-25 py-15'>
         <div className='hpy-left md:w-1/2'>
           <p className='text-[14px]'>CAREER</p>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-7 md:pb-0'>
+          <h3 className='text-2xl font-semibold md:text-4xl pb-2 md:pb-0'>
             For every person who wants to make real difference
           </h3>
-          <p className='pt-5'>
+          <p className='pt-0 md:pt-5 pb-7'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, iste
             possimus. Deleniti provident veniam commodi dolor? 
           </p>

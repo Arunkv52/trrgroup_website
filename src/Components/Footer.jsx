@@ -1,12 +1,11 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <>
       <footer className='bg-black text-white flex flex-wrap px-5 py-10 md:px-10 md:py-[70px]'>
-        <div className='w-full md:w-1/2 mb-6 md:mb-0'>
+        <div className='w-full md:w-1/2 mb-6 md:mb-0 pb-7'>
           <p className='text-[15px] pb-3'>Trr Group of Companies</p>
           <ul className='text-[23px]'>
             <li>
@@ -18,7 +17,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='w-full md:w-1/4 mb-6 md:mb-0'>
+        <div className='w-full md:w-1/4 mb-6 md:mb-0 pb-7'>
           <p className='text-[15px] pb-3'>Our Products</p>
           <ul className='text-[23px]'>
             <li>
@@ -31,7 +30,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className='w-full md:w-1/4 mb-6 md:mb-0'>
+        <div className='w-full md:w-1/4 mb-6 md:mb-0 pb-7'>
           <p className='text-[15px] pb-[20px]'>Social</p>
           <ul className='text-[23px]'>
             <li><a href="#">Facebook</a></li>
@@ -43,12 +42,12 @@ const Footer = () => {
 
         <div className='w-full md:w-full flex flex-col items-end pt-10'>
           <p className='text-[13px] text-gray-700'>
-            Copyright TRR Group | Developed by <a href="www.prismadverto.com" className='hover:bg-red-600'>Prism Adverto Pvt Ltd</a>
+            Copyright TRR | Developed by <a href="www.prismadverto.com" className='hover:bg-red-600'>Prism Adverto Pvt Ltd</a>
           </p>
           <div className='footer-privacy'>
             <ul className='flex gap-2 pt-2'>
-              <li className='text-[14px]'>Privacy</li>
-              <li className='text-[14px]'>Cookies</li>
+              <li className='text-[14px]'><a href="#">Privacy</a></li>
+              <li className='text-[14px]'><a href="#">Cookies</a></li>
             </ul>
           </div>
         </div>
