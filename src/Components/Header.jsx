@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md">
-      <div className="flex justify-between items-center px-5 py-4 md:px-10">
+      <div className="flex justify-between items-center px-5 md:px-25 py-4">
         {/* Logo */}
         <div className="head-logo">
           <h6 className='text-[20px] font-semibold'>TRR Group</h6>
