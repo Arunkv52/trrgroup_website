@@ -33,10 +33,9 @@ const Footer = () => {
         <div className='w-full md:w-1/4 mb-6 md:mb-0 pb-7'>
           <p className='text-[15px] pb-[20px]'>Social</p>
           <ul className='text-[15px]'>
-            <li className='pb-1'><a href="#" className='hover:text-red-700'>Facebook</a></li>
-            <li className='pb-1'><a href="#" className='hover:text-red-700'>Instagram</a></li>
-            <li className='pb-1'><a href="#" className='hover:text-red-700'>Twitter</a></li>
-            <li className='pb-1'><a href="#" className='hover:text-red-700'>Youtube</a></li>
+            <li className='pb-1'><a href="https://www.facebook.com/TRRautomotive/" className='hover:text-red-700'>Facebook</a></li>
+            <li className='pb-1'><a href="https://www.instagram.com/trrautomotive/" className='hover:text-red-700'>Instagram</a></li>
+            <li className='pb-1'><a href="https://youtube.com/@trrautomotive-jcb?si=3VycRFnYI2MKpc3-" className='hover:text-red-700'>Youtube</a></li>
           </ul>
         </div>
 
