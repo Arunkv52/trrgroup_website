@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className='bg-black text-white flex flex-wrap px-5 py-10 md:px-25 md:py-[70px]'>
         <div className='w-full md:w-1/2 mb-6 md:mb-0 pb-7'>
-          <p className='text-[15px] pb-3'>Trr Group of Companies</p>
+          <p className='text-[15px] pb-3 font-logo'>TRR Group of Companies</p>
           <ul className='text-[15px]'>
             <li>
               New No.5, 1st Cross Street, Seethammal Extn, <br /> Teynampet,

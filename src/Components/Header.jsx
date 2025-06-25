@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
+import LogoImg from '../assets/TRR-Group-logo.png';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="flex justify-between items-center px-5 md:px-25 py-4">
         {/* Logo */}
         <div className="head-logo">
-          <h6 className='text-[20px] font-semibold'>TRR Group</h6>
+          <img src={LogoImg} alt="" className='w-[150px]'/>
         </div>
 
         {/* Desktop Menu */}
