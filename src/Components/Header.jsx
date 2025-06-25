@@ -1,48 +1,90 @@
-import React, { useState } from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { IoMdClose } from 'react-icons/io';
-import LogoImg from '../assets/TRR-Group-logo.png';
+import React, { useState } from 'react'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { IoMdClose } from 'react-icons/io'
+import Logo from '../assets/TRR-Group-logo.png'
+import TractorsLogo from '../assets/tractors-logo.png'
+import AutomotiveLogo from '../assets/automotive-logo.webp'
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const OffcanvasMenu = () => {
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="flex justify-between items-center px-5 md:px-25 py-4">
-        {/* Logo */}
-        <div className="head-logo">
-          <img src={LogoImg} alt="" className='w-[150px]'/>
-        </div>
+    <>
+      {/* Top Bar */}
+      <header className='md:mx-25 px-5 py-4 flex justify-between items-center z-50 relative'>
+        <img src={Logo} alt='' className='w-[150px]' />
+        <button
+          onClick={() => setIsOpen(true)}
+          className='block hover:cursor-pointer'
+        >
+          <GiHamburgerMenu size={28} />
+        </button>
+      </header>
 
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 font-medium text-gray-700">
-          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Tractors</a></li>
-          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Automotive</a></li>
-          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Trucks and Buses</a></li>
-          <li className="cursor-pointer hover:text-[#ff0000]"><a href="#">Infra</a></li>
-        </ul>
+      {/* Overlay */}
+      {isOpen && (
+        <div
+          className='fixed inset-0 bg-transparent bg-opacity-40 z-40'
+          onClick={() => setIsOpen(false)}
+        ></div>
+      )}
 
-        {/* Hamburger Icon */}
-        <div className="md:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)}>
-            {menuOpen ? <IoMdClose size={24} /> : <GiHamburgerMenu size={24} />}
+      {/* Offcanvas Panel (works on all screen sizes) */}
+      <div
+        className={`
+          fixed top-0 right-0 h-full w-80 bg-white z-50 shadow-lg
+          transform transition-transform duration-300 ease-in-out
+          ${isOpen ? 'translate-x-0' : 'translate-x-full'}
+        `}
+      >
+        {/* Close Button */}
+        <div className='flex justify-between items-center p-4 border-b'>
+          <h2 className='text-lg font-semibold'>Dealing Products</h2>
+          <button
+            className='hover:cursor-pointer'
+            onClick={() => setIsOpen(false)}
+          >
+            <IoMdClose size={24} />
           </button>
         </div>
-      </div>
 
-      {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden px-5 pb-4">
-          <ul className="flex flex-col gap-3 text-gray-700 font-medium">
-            <li className="cursor-pointer hover:text-[#ff0000]">Tractors</li>
-            <li className="cursor-pointer hover:text-[#ff0000]">Automotive</li>
-            <li className="cursor-pointer hover:text-[#ff0000]">Trucks and Buses</li>
-            <li className="cursor-pointer hover:text-[#ff0000]">Infra</li>
+        {/* Navigation Links */}
+        <nav className='p-6 flex flex-col gap-4 text-gray-700 font-medium'>
+          <ul>
+            <li>
+                <img src={TractorsLogo} alt="" />
+                <p className='text-[14px] pt-2 pb-2'>
+                 Authorised Dealers for John Deere India Pvt Ltd
+                </p>
+                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+              
+            </li>
+            <li className='pt-10'>
+                <img src={AutomotiveLogo} alt="" />
+                <p className='text-[14px] pt-2 pb-2'>
+                 Authorised Dealers for JCB India Pvt Ltd
+                </p>
+                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+            </li>
+            <li className='pt-10'>
+               <img src={AutomotiveLogo} alt="" />
+                <p className='text-[14px] pt-2 pb-2'>
+                 Authorised Dealers for Eicher Commercial Vehicles
+                </p>
+                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+            </li>
+            <li className='pt-10'>
+               <img src={AutomotiveLogo} alt="" />
+                <p className='text-[14px] pt-2 pb-2'>
+                 Authorised Dealers for Ajax Engineering Ltd
+                </p>
+                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+            </li>
           </ul>
-        </div>
-      )}
-    </header>
-  );
-};
+        </nav>
+      </div>
+    </>
+  )
+}
 
-export default Header;
+export default OffcanvasMenu
