@@ -12,7 +12,7 @@ const OffcanvasMenu = () => {
     <>
       {/* Top Bar */}
       <header className='md:mx-25 px-5 py-4 flex justify-between items-center z-50 relative'>
-        <img src={Logo} alt='' className='w-[150px]' />
+        <img src={Logo} alt='' className='w-[180px]' />
         <button
           onClick={() => setIsOpen(true)}
           className='block hover:cursor-pointer'

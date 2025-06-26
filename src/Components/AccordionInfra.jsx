@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../Components/Accordion'
+import './Accordion'
 
 const HyperAccordion = () => {
   const [openIndex, setOpenIndex] = useState(null)

@@ -7,29 +7,34 @@ import Volvo_videos from '../assets/jcb-videos.mp4'
 import istock from '../assets/istock.jpg'
 import HyperAccordion from '../Components/Accordion'
 import Happy from '../assets/happy-drivers.webp'
+import Slider from '../Components/Slider'
+import Button from '../Components/Button'
+import AccordionAutomotive from '../Components/AccordionAutomotive'
+import AccordionTrucks from '../Components/AccordionTrucks'
+import AccordionInfra from '../Components/AccordionInfra'
+import LogoSlider from '../Components/LogoSlider'
+import JcbImg from '../assets/jcb-img.webp'
+import TrucksBus from '../assets/eicher-img.jpg'
+import AjaxImg from '../assets/ajax-img.jpeg'
 
 const Home = () => {
   return (
     <>
       <Header />
-      <div className='header-banner w-full'>
-        <h1 className='text-3xl md:text-5xl px-10 md:px-25 relative top-1/2 text-white font-semibold'>
-          MADE FOR PEOPLE
-        </h1>
-        <h1 className='text-3xl md:text-5xl px-10 md:px-25 relative top-1/2 text-white font-semibold'>
-          BY PEOPLE
-        </h1>
+      {/* Slider start */}
+      <div className='slider w-full h-10/12 object-cover'>
+        <Slider />
       </div>
-
       <div className='w-full md:pt-10 pb-5'>
         <div className='ban-next px-5 md:px-25 pb-5'>
-          <p className='text-[14px] pt-3'>Our Growth Journey</p>
+          <p className='text-[14px] pt-3'>Our Divisions</p>
           <h5 className='text-[18px] md:text-[35px] font-semibold pt-1'>
             From Regional Leaders to Building the India of Tomorrow
           </h5>
         </div>
         <Carousal />
       </div>
+
       {/* Content side */}
       <div className='w-full pt-10'>
         <div className='px-5 md:px-25 bg-black py-20'>
@@ -79,23 +84,59 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Video Section */}
-      <div className='w-full pt-10 md:px-15 md:py-5'>
-        <div className='video_item px-5 md:px-10 md:py-10'>
-          <video src={Volvo_videos} controls muted loop className='video-sec' />
-        </div>
-      </div>
       {/* next video section */}
-      <div className='nxt-video flex flex-wrap md:px-25 px-5 py-10'>
+      <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
         <div className='next-left w-full md:w-1/2'>
-          <p className='text-[14px]'>Heartly welcome</p>
           <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
             Empowering Customers with Expert Support
           </h3>
           <HyperAccordion />
+          <Button />
         </div>
         <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
           <img src={istock} alt='' />
+        </div>
+      </div>
+
+      {/* next video section */}
+      <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 md:py-15'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+          <img src={JcbImg} alt='' />
+        </div>
+        <div className='next-left w-full md:w-1/2'>
+          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+            TRR Automotive
+          </h3>
+          <AccordionAutomotive />
+          <Button />
+        </div>
+      </div>
+
+      {/* next video section */}
+      <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
+        <div className='next-left w-full md:w-1/2'>
+          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+            TRR Trucks and Buses
+          </h3>
+          <AccordionTrucks />
+          <Button />
+        </div>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+          <img src={TrucksBus} alt='' />
+        </div>
+      </div>
+
+      {/* next video section */}
+      <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 py-15'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+          <img src={AjaxImg} alt='' />
+        </div>
+        <div className='next-left w-full md:w-1/2'>
+          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+            TRR Infra
+          </h3>
+          <AccordionInfra />
+          <Button />
         </div>
       </div>
 
@@ -103,34 +144,15 @@ const Home = () => {
       <div className='w-full md:px-25 py-10'>
         <div className='banner-txt'>
           <p className='text-white pt-10 text-2xl md:text-[38px] text-center uppercase font-semibold'>
-            Welcome to TRR Group
+            Over 25 Years of Excellence
           </p>
         </div>
       </div>
 
-      {/* Happy Drivers start */}
-      <div className='w-full flex flex-wrap px-5 md:px-25 py-5 md:py-15'>
-        <div className='hpy-left md:w-1/2'>
-          <p className='text-[14px]'>Meaningful progress</p>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-2 md:pb-0'>
-            For every person who wants to make a real difference
-          </h3>
-          <p className='pt-0 md:pt-5'>
-            At TRR Group, we believe that meaningful progress begins with
-            purpose-driven people. Whether you’re a farmer growing food for the
-            nation, a builder shaping tomorrow’s infrastructure, or a mechanic
-            ensuring machines never stop running — your work matters.
-          </p>
-          <p className='pt-0 md:pt-5'>
-            We are here to empower you with reliable equipment, expert guidance,
-            and unmatched support so you can focus on what truly counts — making
-            a real difference in your field, your community, and your country.
-          </p>
-          
-        </div>
-        <div className='hpy-right md:w-1/2 pt-5 md:pt-0'>
-          <img src={Happy} alt='' />
-        </div>
+    
+      {/* Marquee start */}
+      <div className='w-full px-5 md:px-25 py-5 md:py-15'>
+        <LogoSlider />
       </div>
       <Footer />
     </>

@@ -5,6 +5,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 
 /* Set font and spacing on body only */
@@ -15,6 +16,7 @@ body {
   --sb-track-color: #232E33;
   --sb-thumb-color: #ff0000;
   --sb-size: 4px;
+  overflow-x: hidden;
 }
 
 
