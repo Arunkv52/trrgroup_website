@@ -85,26 +85,29 @@ const Home = () => {
       </div>
 
       {/* next video section */}
-      <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
-        <div className='next-left w-full md:w-1/2'>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
-            Empowering Customers with Expert Support
-          </h3>
-          <HyperAccordion />
-          <Button />
-        </div>
-        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
-          <img src={istock} alt='' />
+      <div className='nxt-sec py-[40px]'>
+        <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0 text-center'>Empowering Customers with Expert Support</h3>
+        <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
+          <div className='next-left w-full md:w-1/2'>
+            <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
+              Trr Tractors
+            </h3>
+            <HyperAccordion />
+            <Button />
+          </div>
+          <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
+            <img src={istock} alt='' />
+          </div>
         </div>
       </div>
 
       {/* next video section */}
       <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 md:py-15'>
-        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
           <img src={JcbImg} alt='' />
         </div>
         <div className='next-left w-full md:w-1/2'>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+          <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
             TRR Automotive
           </h3>
           <AccordionAutomotive />
@@ -115,24 +118,24 @@ const Home = () => {
       {/* next video section */}
       <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
         <div className='next-left w-full md:w-1/2'>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+          <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
             TRR Trucks and Buses
           </h3>
           <AccordionTrucks />
           <Button />
         </div>
-        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
           <img src={TrucksBus} alt='' />
         </div>
       </div>
 
       {/* next video section */}
       <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 py-15'>
-        <div className='next-right w-full md:w-1/2 pt-10 md:p-2'>
+        <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
           <img src={AjaxImg} alt='' />
         </div>
         <div className='next-left w-full md:w-1/2'>
-          <h3 className='text-2xl font-semibold md:text-4xl pb-0 md:pb-0'>
+          <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
             TRR Infra
           </h3>
           <AccordionInfra />
@@ -149,7 +152,6 @@ const Home = () => {
         </div>
       </div>
 
-    
       {/* Marquee start */}
       <div className='w-full px-5 md:px-25 py-5 md:py-15'>
         <LogoSlider />
