@@ -1,8 +1,8 @@
 .SliderItem-1 {
     background:
-        linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
+        linear-gradient(rgba(4, 6, 54, 0.574), rgba(0, 0, 0, 0.289)),
         url(../assets/banners1.jpg);
-    background-position: center center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -10,7 +10,7 @@
 }
 
 .SliderItem-2 {
-    background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
+    background:  linear-gradient(rgba(4, 6, 54, 0.574), rgba(0, 0, 0, 0.289)),
         url(../assets/banners2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     height: 480px;
 }
 .SliderItem-3 {
-    background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
+    background:  linear-gradient(rgba(4, 6, 54, 0.574), rgba(0, 0, 0, 0.289)),
         url(../assets/banners3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
     height: 480px;
 }
 .SliderItem-4 {
-    background:  linear-gradient(rgba(4, 6, 54, 0.985), rgba(0, 0, 0, 0.289)),
+    background:  linear-gradient(rgba(4, 6, 54, 0.574), rgba(0, 0, 0, 0.289)),
         url(../assets/banners4.jpg);
     background-position: center center;
     background-repeat: no-repeat;

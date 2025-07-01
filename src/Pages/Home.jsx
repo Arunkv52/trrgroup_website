@@ -3,10 +3,8 @@ import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import '../Pages/Home.css'
 import Carousal from '../Components/Carousal'
-import Volvo_videos from '../assets/jcb-videos.mp4'
-import istock from '../assets/istock.jpg'
+import istock from '../assets/john-deere-tractor.webp'
 import HyperAccordion from '../Components/Accordion'
-import Happy from '../assets/happy-drivers.webp'
 import Slider from '../Components/Slider'
 import Button from '../Components/Button'
 import AccordionAutomotive from '../Components/AccordionAutomotive'
@@ -14,8 +12,11 @@ import AccordionTrucks from '../Components/AccordionTrucks'
 import AccordionInfra from '../Components/AccordionInfra'
 import LogoSlider from '../Components/LogoSlider'
 import JcbImg from '../assets/jcb-img.webp'
-import TrucksBus from '../assets/eicher-img.jpg'
-import AjaxImg from '../assets/ajax-img.jpeg'
+import TrrBanner from '../assets/trr-automotive-bg.webp'
+import TrrTrucks from '../assets/eicher-bg-bus.jpg'
+import InfraImage from '../assets/ajax-img-item.jpg'
+
+
 
 const Home = () => {
   return (
@@ -37,10 +38,8 @@ const Home = () => {
 
       {/* Content side */}
       <div className='w-full pt-10'>
-        <div className='px-5 md:px-25 bg-black py-20'>
-          <p className='text-[14px] pb-4 text-white'>
-            <strong>Hello and welcome</strong>
-          </p>
+        <div className='px-5 md:px-25 bg-black py-25'>
+          
           <h3 className='text-2xl font-semibold md:text-4xl pb-2 md:pb-5 text-white'>
             About TRR Group
           </h3>
@@ -90,7 +89,7 @@ const Home = () => {
         <div className='nxt-video flex flex-wrap md:px-25 px-5 py-15'>
           <div className='next-left w-full md:w-1/2'>
             <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
-              Trr Tractors
+              TRR Tractors
             </h3>
             <HyperAccordion />
             <Button />
@@ -104,7 +103,7 @@ const Home = () => {
       {/* next video section */}
       <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 md:py-15'>
         <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
-          <img src={JcbImg} alt='' />
+          <img src={TrrBanner} alt='' />
         </div>
         <div className='next-left w-full md:w-1/2'>
           <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
@@ -125,14 +124,14 @@ const Home = () => {
           <Button />
         </div>
         <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
-          <img src={TrucksBus} alt='' />
+          <img src={TrrTrucks} alt='' />
         </div>
       </div>
 
       {/* next video section */}
       <div className='nxt-video col-rev flex flex-wrap md:px-25 px-5 py-15'>
         <div className='next-right w-full md:w-1/2 pt-10 md:p-5'>
-          <img src={AjaxImg} alt='' />
+          <img src={InfraImage} alt='' />
         </div>
         <div className='next-left w-full md:w-1/2'>
           <h3 className='text-2xl font-semibold md:text-[25px] pb-0 md:pb-0'>
