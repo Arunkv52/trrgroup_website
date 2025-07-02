@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import Banner1 from '../assets/banner-1.jpg'
-import Banner2 from '../assets/banner-2.jpg'
-import Banner3 from '../assets/banner-3.webp'
+import Banner2 from '../assets/banner-2.jpeg'
+import Banner3 from '../assets/banner-3.jpg'
 import Banner4 from '../assets/banner-4.jpg'
 import Banner5 from '../assets/banner-5.jpg'
 

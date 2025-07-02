@@ -6,18 +6,18 @@ const Footer = () => {
     <>
       <footer className='bg-black text-white flex flex-wrap px-5 py-10 md:px-25 md:py-[30px]'>
         <div className='w-full md:w-1/2 mb-6 md:mb-0 pb-7'>
-          <p className='text-[15px] pb-3 font-logo'>TRR Group of Companies</p>
+          <p className='text-[25px] pb-3 font-logo'>TRR Group of Companies</p>
           <ul className='text-[15px]'>
             <li>
               New No.5, 1st Cross Street, Seethammal Extn, <br /> Teynampet,
               Chennai -600 018
             </li>
-            <li className='pt-5 hover:text-red-600'><a href="tel:+919841012828">Phone : +91 98410 12828</a></li>
+            <li className='pt-5 hover:text-red-600'><a href="tel:+919841012528">Phone : +91 98410 12828</a></li>
           </ul>
         </div>
 
         <div className='w-full md:w-1/2 mb-6 md:mb-0 pb-7'>
-          <p className='text-[15px] pb-3'>Our Products</p>
+          <p className='text-[25px] pb-3'>Our Products</p>
           <ul className='text-[15px]'>
             <li  className='pb-1'>
               <a href="#" className='hover:text-red-700'>Tractors</a>
