@@ -55,7 +55,7 @@ const OffcanvasMenu = () => {
         <nav className='p-6 flex flex-col gap-4 text-gray-700 font-medium'>
           <ul>
             <li>
-                <img src={TrrTractors} alt="" />
+                <img src={TrrTractors} alt="" className='md:w-[180px]'/>
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for John Deere India Pvt Ltd
                 </p>
@@ -63,21 +63,21 @@ const OffcanvasMenu = () => {
               
             </li>
             <li className='pt-10'>
-                <img src={AutomotiveLogo} alt="" />
+                <img src={AutomotiveLogo} alt="" className='md:w-[200px]' />
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for JCB India Pvt Ltd
                 </p>
                  <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
             </li>
             <li className='pt-10'>
-               <img src={TrrBus} alt="" />
+               <img src={TrrBus} alt="" className='md:w-[250px]' />
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for Eicher Commercial Vehicles
                 </p>
                  <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
             </li>
             <li className='pt-10'>
-               <img src={TrrInfra} alt="" />
+               <img src={TrrInfra} alt="" className='md:w-[150px]' />
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for Ajax Engineering Ltd
                 </p>

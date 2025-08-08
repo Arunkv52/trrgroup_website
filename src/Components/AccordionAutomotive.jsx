@@ -33,12 +33,6 @@ const HyperAccordion = () => {
         'All you have to do is give us a call, or look up & place your order online. Your parts can be delivered to your location in the next 48 hours.',
         'No matter how large or small the application, no matter what you need, our parts team will help you get the right parts at the right time, so you can get back to work.'
       ]
-    },
-      {
-      title: 'Locations',
-      content: [
-        'Coimbatore / ', 'Ooty'
-       ]
     }
   ]
 

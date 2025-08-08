@@ -1,79 +1,69 @@
-import React, { useState } from 'react'
-import './Accordion'
+import React, { useState } from "react";
+import "./Accordion";
 
 const HyperAccordion = () => {
-  const [openIndex, setOpenIndex] = useState(null)
+  const [openIndex, setOpenIndex] = useState(null);
 
-  const toggle = index => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
+  const toggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
   const items = [
     {
-      title: 'Brands We Deal',
+      title: "Engineered for Modern Infrastructure",
       content: [
-        'It’s hard to find a better group of people than the folks at TRR Automotive. Our knowledgeable & friendly staff will help you every step of the way, throughout your entire buying process. We are committed to customer satisfaction, so it is no wonder why we have had very pleased customers returning to us time again throughout our decade old history.',
-        'TRR strongly believes that talented people are the competitive advantage and is committed to people excellence. Professionalism, Teamwork, focus on training & development, and a congenial work environment ensure that TRR employees excel in their performance. Constant monitoring of employee engagement levels & organizational health indices & continuous improvement plans have put TRR on the path of becoming a “Preferred Employer”.'
-      ]
+        "Our concrete equipment is engineered to meet the growing demands of modern infrastructure projects — from residential buildings to bridges, roads, and metro construction. AJAX's innovations, like Load Cell-based Weighing Systems, Smart Fleet Monitoring, and IoT-enabled equipment, offer unmatched reliability and productivity.",
+      ],
     },
     {
-      title: 'Customer Service',
+      title: "Driving Innovation Through Technology",
       content: [
-        'We deliver the support you need.',
-        'Our customers’ are at the very heart of our business – we aim to provide world-class support and deliver 100% customer satisfaction.',
-        'We understand that this is a business about relationships, as well as machines. We aim for customer satisfaction every time, and understand that this means supporting the machine throughout its life. We aim to ensure minimum downtime of your machines by -',
-        '5 Sales & Service Outlets in Tractor division, 18 outlets with 5 workshops in Automotive division 5 Mobile Service Vans for faster movement & reaching all the interiors of our territory.'
-      ]
+        "Technology has always been the forte of AJAX’s business at the intersection of repertoire of engineering knowledge about concreting segment together with the core creation of customer values through effectual customer relationship management. Leveraging technology to offer innovative products has been AJAX’s strength all through.",
+      ],
     },
     {
-      title: 'Products Parts Support',
+      title: "Your Journey, Our Priority",
       content: [
-        'The right parts at the right time Whether your equipment is used for construction, landscaping, agriculture or general and maintenance, you can’t work when it breaks down or needs service. The parts department at TRR Group is fully equipped with customer friendly experienced staff who know this. Our primary goal is to have the parts you need on hand for speedy pickup or delivery. We closely monitor parts demand for all our product range, to ensure we stock the right parts at the right time.',
-        'If you need an unusual item we do not keep on hand, we can typically arrange one in the short span of time. Concerned about having to make a long & fuel consuming road trip to our parts store?',
-        'All you have to do is give us a call, or look up & place your order online. Your parts can be delivered to your location in the next 48 hours.',
-        'No matter how large or small the application, no matter what you need, our parts team will help you get the right parts at the right time, so you can get back to work.'
-      ]
+        "AJAX’s support network is spread across the length and breadth of the country, ensuring you are never far away from the timely service when required. The full-fledged team of skilled engineers are trained to handle both preventive and reactive maintenance on site during emergencies. To ensure round-the-clock service support, customers can reach our 24 x 7 Customer care for all your queries and requests. AJAX offers following service options to ensure optimum availability of machines and enhance customer satisfaction.",
+      ],
     },
-      {
-      title: 'Locations',
-      content: [
-        'Coimbatore / ', 'Ooty'
-       ]
-    }
-  ]
+  ];
 
   return (
-    <div className='space-y-4 w-full mt-10'>
+    <div className="space-y-4 w-full mt-10">
       {items.map((item, index) => (
-        <div key={index} className='border border-gray-200 rounded cursor-pointer'>
+        <div
+          key={index}
+          className="border border-gray-200 rounded cursor-pointer"
+        >
           <button
             onClick={() => toggle(index)}
-            className='flex items-center justify-between w-full p-4 text-left font-medium text-gray-800 bg-gray-300 hover:bg-gray-100'
+            className="flex items-center justify-between w-full p-4 text-left font-medium text-gray-800 bg-gray-300 hover:bg-gray-100"
           >
             <span>{item.title}</span>
             <svg
               className={`w-5 h-5 transition-transform duration-200 ${
-                openIndex === index ? 'rotate-180' : ''
+                openIndex === index ? "rotate-180" : ""
               }`}
-              fill='none'
-              stroke='currentColor'
-              viewBox='0 0 24 24'
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
             >
               <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                d='M19 9l-7 7-7-7'
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 9l-7 7-7-7"
               />
             </svg>
           </button>
           {openIndex === index && (
-            <div className='p-4 text-gray-600 border-t'>{item.content}</div>
+            <div className="p-4 text-gray-600 border-t">{item.content}</div>
           )}
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default HyperAccordion
+export default HyperAccordion;
