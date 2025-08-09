@@ -22,6 +22,38 @@
   .col-rev {
     flex-direction: column-reverse;
   }
+  .bg-r1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/istock.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  .bg-r2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/trr-automotive-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  .bg-r3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/trr-truck-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  .bg-r4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../assets/ajax-ban.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
 }
 
 .bg-r1 {
@@ -31,23 +63,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg-r2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+.bg-r2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/trr-automotive-bg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.bg-r3{
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+.bg-r3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/trr-truck-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bg-r4{
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+.bg-r4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/ajax-ban.webp");
   background-position: center;
   background-repeat: no-repeat;
