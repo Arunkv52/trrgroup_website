@@ -55,10 +55,10 @@ var settings = {
         <img src={Eicher} alt='' />
       </div>
       <div className='client_logo'>
-        <img src={Ajax} alt='' />
+        <img src={Bkt} alt='' />
       </div>
       <div className='client_logo'>
-        <img src={Bkt} alt='' />
+        <img src={Ajax} alt='' />
       </div>
    
      
