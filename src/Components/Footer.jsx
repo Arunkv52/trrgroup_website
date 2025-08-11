@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="mailto:info@trrgroup.in">Email : info@trrgroup.in</a>
             </li>
             <li className="hover:text-red-600">
-              <a href="https://www.trrgroup.in/">Website : www.trrgroup.in</a>
+              <a href="https://www.trrgroup.in/">Group of companies : www.trrgroup.in</a>
             </li>
           </ul>
         </div>
