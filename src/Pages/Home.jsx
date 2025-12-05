@@ -87,10 +87,10 @@ const Home = () => {
             <HyperAccordion />
             <div className="py-5">
               <a
-                href="#"
+                href="https://trrtractors.com/"
                 className="bg-black px-8 py-2 text-white hover:bg-red-600"
               >
-                <button>Know More </button>
+                <button className='cursor-pointer'>Know More </button>
               </a>
             </div>
           </div>
@@ -116,10 +116,10 @@ const Home = () => {
           <AccordionAutomotive />
           <div className="py-5">
             <a
-              href="#"
+              href="https://trrautomotive.com/"
               className="bg-black px-8 py-2 text-white hover:bg-red-600"
             >
-              <button>Know More </button>
+              <button className='cursor-pointer'>Know More </button>
             </a>
           </div>
         </div>
@@ -134,10 +134,10 @@ const Home = () => {
           <AccordionTrucks />
           <div className="py-5">
             <a
-              href="#"
+              href="https://trrtrucksandbuses.com/"
               className="bg-black px-8 py-2 text-white hover:bg-red-600"
             >
-              <button>Know More </button>
+              <button className='cursor-pointer'>Know More </button>
             </a>
           </div>
         </div>
@@ -162,10 +162,10 @@ const Home = () => {
           <AccordionInfra />
           <div className="py-5">
             <a
-              href="#"
+              href="https://trrinfra.com/"
               className="bg-black px-8 py-2 text-white hover:bg-red-600"
             >
-              <button>Know More </button>
+              <button className='cursor-pointer'>Know More </button>
             </a>
           </div>
         </div>
