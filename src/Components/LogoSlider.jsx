@@ -5,7 +5,7 @@ import JohnDeere from '../assets/Logo-01.png'
 import Dasmash from '../assets/Logo-02.png'
 import Jcb from '../assets/Logo-03.png'
 import Ajax from '../assets/Logo-04.png'
-import Eicher from '../assets/Logo-05.png'
+import Eicher from '../assets/Eicher-Motors-Logo.jpg'
 import Bkt from '../assets/Logo-07.png'
 
 

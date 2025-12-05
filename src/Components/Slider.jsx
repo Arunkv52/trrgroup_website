@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import Banner1 from '../assets/banner-1.jpg'
 import Banner2 from '../assets/banner-2.jpeg'
 import Banner3 from '../assets/banner-3.jpg'
-import Banner4 from '../assets/banner-4.jpg'
+import Banner4 from '../assets/ajax-ban.webp'
 import Banner5 from '../assets/banner-5.jpg'
 
 import '../Components/Slider.css'

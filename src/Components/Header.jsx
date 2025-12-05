@@ -59,7 +59,7 @@ const OffcanvasMenu = () => {
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for John Deere India Pvt Ltd
                 </p>
-                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+                 <a href='https://trrtractors.com/' className='hover:text-red-500 text-[14px] underline'>visit site</a>
               
             </li>
             <li className='pt-10'>
@@ -67,21 +67,21 @@ const OffcanvasMenu = () => {
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for JCB India Pvt Ltd
                 </p>
-                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+                 <a href='https://trrautomotive.com/' className='hover:text-red-500 text-[14px] underline'>visit site</a>
             </li>
             <li className='pt-10'>
                <img src={TrrBus} alt="" className='md:w-[250px]' />
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for Eicher Commercial Vehicles
                 </p>
-                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+                 <a href='https://trrtrucksandbuses.com/' className='hover:text-red-500 text-[14px] underline'>visit site</a>
             </li>
             <li className='pt-10'>
                <img src={TrrInfra} alt="" className='md:w-[150px]' />
                 <p className='text-[14px] pt-2 pb-2'>
                  Authorised Dealers for Ajax Engineering Ltd
                 </p>
-                 <a href='#' className='hover:text-red-500 text-[14px] underline'>visit site</a>
+                 <a href='https://trrinfra.com/' className='hover:text-red-500 text-[14px] underline'>visit site</a>
             </li>
           </ul>
         </nav>

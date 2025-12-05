@@ -10,20 +10,44 @@ const HyperAccordion = () => {
 
   const items = [
     {
+      title: "Small Trucks",
+      content: [],
+      listitem: [
+        "Eicher small trucks deliver excellent mileage, strong performance, and low operating costs.",
+        "Built for reliability and high payload efficiency, they are ideal for city deliveries and last-mile logistics.",
+      ],
+    },
+    {
+      title: "Light & Medium Duty Trucks",
+      content: [],
+      listitem: [
+        "Eicher Light & Medium Trucks offer powerful performance, high fuel efficiency, and excellent durability for daily commercial operations.",
+        "Designed for higher payloads and long-distance reliability, they ensure lower maintenance costs and maximum business productivity.",
+      ],
+    },
+    {
       title: "Heavy Duty Trucks",
-      content: [
-        "The new range of BS VI Eicher Pro Heavy Duty haulage trucks and tractors, available from 18.5-55 tonne GVW, is dsigned and developed to provide unparalleled business advantage by maximizing product performance right through the life cycle of the vehicles and minimizing the cost of operations",
+      content: [],
+      listitem: [
+        "The BS VI Eicher Pro Heavy Duty trucks (18.5–55T GVW) are engineered for superior performance and long-term reliability.",
+        "They deliver maximum business efficiency by boosting productivity and reducing overall operating costs.",
       ],
     },
     {
       title: "Buses",
-      content: [
-        "Eicher presents the all new Eicher BSVI Bus Range, the smart, comfortable, advanced and efficient range of next gen buses designed to deliver maximum Fuel Efficiency and Profitability. Choose among our School, Staff, Tourist or Route Permit BSVI bus range, We have a bus tailored for your every need!",
+      content: [],
+      listitem: [
+        "The all-new Eicher BSVI Bus Range delivers smart, comfortable, and advanced performance with excellent fuel efficiency and profitability.",
+        "Available in School, Staff, Tourist and Route Permit options, Eicher offers the perfect bus for every transport need.",
       ],
     },
     {
       title: "Uptime Services",
-      content: ["From departure to arrival, it's a race against time and challenges on the road. At Eicher, we understand that superior uptime is the best route to ensure your transportation business is a success, so, we go the extra mile. We do not just offer dependable vehicles, we provide unwavering support through our trained experts and digitised services. This is how we deliver over 98% uptime across key transport segments."],
+      content: [],
+      listitem: [
+        "Eicher ensures superior uptime with reliable vehicles, trained experts, and advanced digitised support services.",
+        "By delivering over 98% uptime, Eicher helps your transport business stay efficient, competitive, and always on the move.",
+      ],
     },
   ];
 
@@ -56,7 +80,23 @@ const HyperAccordion = () => {
             </svg>
           </button>
           {openIndex === index && (
-            <div className="p-4 text-gray-600 border-t">{item.content}</div>
+            <div className="p-4 text-gray-600 border-t">
+              {/* Content paragraphs */}
+              {item.content?.map((para, i) => (
+                <p key={i} className="mb-2">
+                  {para}
+                </p>
+              ))}
+
+              {/* Bullet List */}
+              {item.listitem && (
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  {item.listitem.map((point, j) => (
+                    <li key={j}>{point}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
           )}
         </div>
       ))}

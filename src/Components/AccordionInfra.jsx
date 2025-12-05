@@ -11,20 +11,26 @@ const HyperAccordion = () => {
   const items = [
     {
       title: "Engineered for Modern Infrastructure",
-      content: [
-        "Our concrete equipment is engineered to meet the growing demands of modern infrastructure projects — from residential buildings to bridges, roads, and metro construction. AJAX's innovations, like Load Cell-based Weighing Systems, Smart Fleet Monitoring, and IoT-enabled equipment, offer unmatched reliability and productivity.",
+      content: [],
+      listitem: [
+        "AJAX concrete equipment is built to meet the demands of modern infrastructure work, from housing projects to bridges, roads, and metro construction.",
+        "With innovations like load-cell weighing, smart fleet monitoring, and IoT-enabled systems, AJAX delivers superior reliability and productivity.",
       ],
     },
     {
       title: "Driving Innovation Through Technology",
-      content: [
-        "Technology has always been the forte of AJAX’s business at the intersection of repertoire of engineering knowledge about concreting segment together with the core creation of customer values through effectual customer relationship management. Leveraging technology to offer innovative products has been AJAX’s strength all through.",
+      content: [],
+      listitem: [
+        "AJAX leverages strong engineering expertise and advanced technology to deliver innovative concreting solutions.",
+        "With a focus on customer value and effective relationship management, AJAX continues to lead through tech-driven product development.",
       ],
     },
     {
       title: "Your Journey, Our Priority",
-      content: [
-        "AJAX’s support network is spread across the length and breadth of the country, ensuring you are never far away from the timely service when required. The full-fledged team of skilled engineers are trained to handle both preventive and reactive maintenance on site during emergencies. To ensure round-the-clock service support, customers can reach our 24 x 7 Customer care for all your queries and requests. AJAX offers following service options to ensure optimum availability of machines and enhance customer satisfaction.",
+      content: [],
+      listitem: [
+        "AJAX’s nationwide support network and skilled service engineers ensure quick, reliable maintenance whenever and wherever needed.",
+        "With 24×7 customer care and multiple service options, AJAX guarantees maximum machine uptime and enhanced customer satisfaction.",
       ],
     },
   ];
@@ -58,7 +64,23 @@ const HyperAccordion = () => {
             </svg>
           </button>
           {openIndex === index && (
-            <div className="p-4 text-gray-600 border-t">{item.content}</div>
+            <div className="p-4 text-gray-600 border-t">
+              {/* Content paragraphs */}
+              {item.content?.map((para, i) => (
+                <p key={i} className="mb-2">
+                  {para}
+                </p>
+              ))}
+
+              {/* Bullet List */}
+              {item.listitem && (
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  {item.listitem.map((point, j) => (
+                    <li key={j}>{point}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
           )}
         </div>
       ))}

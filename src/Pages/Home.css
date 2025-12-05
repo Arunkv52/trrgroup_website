@@ -9,13 +9,14 @@
 }
 
 .banner-txt {
-  background: linear-gradient(rgba(1, 2, 21, 0.985), rgba(0, 0, 0, 0.289)),
-    url(../assets/TRR-group-img.jpg);
+  /* background: linear-gradient(rgba(1, 2, 21, 0.985), rgba(0, 0, 0, 0.289)),
+    url(../assets/trr-all-images.png); */
+    background: url(../assets/trr-all-images.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 600px;
-  object-fit: contain;
+  height: 700px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {

@@ -45,42 +45,32 @@ const Home = () => {
             About TRR Group
           </h3>
           <h6 className="pb-5 text-white text-justify">
-            TRR Tractors started in 2001 has its own prominent place in the
-            agriculture equipment market in its territory establishing a strong
-            customer base and confidence through the right suggestions for
-            purchase of product to its customers and also the non tiring
-            customer support through which we have won the credibility of our
-            customer paving way for our growth which has given us the confidence
-            to venture in to more & more endeavors.
+            Driving India’s Growth in Agriculture and Infrastructure Since 2001,
+            TRR Tractors has built a strong reputation in the agricultural
+            sector by providing expert product advice, dependable after-sales
+            support, and unmatched customer trust. Our dedication has earned us
+            a loyal customer base and paved the way for continuous growth. In
+            2007, we expanded with TRR Automotive, partnering with global leader
+            JCB to deliver top-quality construction, quarry, and earthmoving
+            equipment. Backed by over a decade of industry expertise, we are
+            poised to capitalize on India’s booming infrastructure and
+            construction markets.
           </h6>
           <h6 className="pb-5 text-white text-justify">
-            TRR Automotive the second feather in the cap is a part of the TRR
-            Group of companies, has been engaged in the sale & support of
-            construction, quarry & earth moving equipment since 2007. With over
-            a decade of experience in the field, and association with JCB, the
-            world leader in Construction Equipments, TRR is well placed to take
-            full advantage of the construction & infrastructural much awaited
-            growth in Indian economy expected sooner than later that India is
-            poised to experience
+            In 2025, we have further expanded with Volvo Eicher, one of the
+            leading Commercial Vehicle brand in India to cater our customers
+            with one more excellent brand.
           </h6>
           <h6 className="pb-5 text-white text-justify">
-            TRR Group offers “one stop solution” to customers looking for
-            Agricultural, Farming, Construction, quarry & road laying
-            equipments, besides other applications through the various
-            organizations under its banner. . We embark on business solutions
-            starting with advice & consultancy in choosing the right product.
-            TRR is a leading player in mechanization of the farming sector and
-            in the infrastructure development activities in Tamilnadu, from
-            agricultural mechanization, construction, quarry activities to
-            building highways across Tamilnadu….truly “helping to build the
-            India of tomorrow”. TRR has ambitious growth plans & the vision to
-            achieve market leadership in all products & services it offers by
-            being a customer centric organization, as well as a preferred
-            employer. This helps in moving towards the vision of achieving
-            customer delight, through the technically superior & more productive
-            JCB products coupled with TRR’s world class product support, in
-            maximizing customer’s profitability.
+            Additionally, we have extended our portfolio with Ajax Engineering
+            limited, pioneering in concrete solutions in India.
           </h6>
+          <h6 className="pb-5 text-white text-justify">The TRR Group is your complete partner for agricultural, construction,
+          quarry, Concrete machinery and commercial Vehicle needs. From
+          personalized consultancy to comprehensive support, we empower farmers
+          and builders across North Tamil Nadu to maximize productivity and
+          success—truly building the India of tomorrow.</h6>
+          
         </div>
       </div>
 
@@ -185,7 +175,7 @@ const Home = () => {
       <div className="w-full  py-10">
         <div className="banner-txt">
           <p className="text-white pt-10 text-2xl md:text-[38px] text-center uppercase font-semibold">
-            Over 25 Years of Excellence
+           
           </p>
         </div>
       </div>

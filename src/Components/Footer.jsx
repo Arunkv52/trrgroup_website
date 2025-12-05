@@ -16,10 +16,10 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-black text-white flex justify-between flex-wrap px-5 py-10 md:px-25 md:py-[30px]">
-        <div className="w-full md:w-1/2 mb-6 md:mb-0 pb-7">
+        <div className="w-full md:w-[75%] mb-6 md:mb-0 pb-7">
           <p className="text-[25px] pb-3 font-bold">TRR Group of Companies</p>
-          <p>
-            <strong>Registered Office :</strong>
+          <p className="py-1">
+            <strong>Corporate Office :</strong>
           </p>
           <ul className="text-[15px]">
             <li className="pb-10">
@@ -41,112 +41,34 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-full md:w-1/5 mb-6 md:mb-0 pb-7">
+        <div className="w-full md:w-[25%] mb-6 md:mb-0 pb-7">
           <p className="text-[25px] pb-3">
             <strong>Our Divisions</strong>
           </p>
           <ul className="text-[15px]">
             <li className="pb-1">
-              <a href="#" className="hover:text-red-700">
+              <a href="https://trrtractors.com/" className="hover:text-red-700">
                 TRR Tractors
               </a>
             </li>
             <li className="pb-1">
-              <a href="#" className="hover:text-red-700">
+              <a href="https://trrautomotive.com/" className="hover:text-red-700">
                 TRR Automotive
               </a>
             </li>
             <li className="pb-1">
-              <a href="#" className="hover:text-red-700">
+              <a href="https://trrtrucksandbuses.com/" className="hover:text-red-700">
                 TRR Trucks and Buses Pvt Ltd
               </a>
             </li>
             <li className="pb-1">
-              <a href="#" className="hover:text-red-700">
+              <a href="https://trrinfra.com/" className="hover:text-red-700">
                 TRR Infra
               </a>
             </li>
           </ul>
         </div>
-        <div className="w-full md:w-1/5 mb-6 md:mb-0 pb-7 md:relative md:left-[8%]">
-          <p className="text-[25px] pb-3">
-            <strong>Our Branches</strong>
-          </p>
-          <ul className="text-[15px]">
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="Acharapakkam, Tamil Nadu 603301"
-              >
-                Acharapakkam
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="Periyar Nagar, Bypass Road, Ponneri, Virudhachalam - Tamil Nadu 606001"
-              >
-                Virudhachalam
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="Periyar Nagar, Bypass Road, Ponneri, Cuddalore, Tamil Nadu "
-              >
-                Cuddalore
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="No.1, North Main Road, Next To Bsnl Office, Vandigate, Chidambaram, Tamilnadu 608001"
-              >
-                Chidambaram
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title=" Mangalam near V.S.Public School, No.244, Mosque St, Tirukazhukundram Tamil Nadu 603109"
-              >
-                Tirukazhukundram 
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="No 471, Chengalpattu Road, Nchipuramnchipuram, Kancheepuram, Tamil Nadu, 631561"
-              >
-                Kanchipuram
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title="SH 118A, Uthiramerur, Tamil Nadu 603406"
-              >
-                Uthiramerur
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                href="#"
-                className="hover:text-red-700"
-                title=" Main Road, Pavunjur , Tamilnadu 603 312"
-              >
-                Pavunjur
-              </a>
-            </li>
-          </ul>
-        </div>
+        
 
         <div className="w-full md:w-full flex flex-col items-end pt-0 md:pt-10">
           <p className="text-[13px] text-gray-700">
