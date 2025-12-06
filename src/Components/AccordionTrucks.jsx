@@ -21,6 +21,9 @@ const HyperAccordion = () => {
         {
           content: ["Pro X - Diesel"],
           listitem: ["GVW - 3 Ton", "GVM - 3.5 Ton"],
+        },{
+          content: ["Contact No: +91 89393 62828"],
+          listitem: [],
         },
       ],
     },
