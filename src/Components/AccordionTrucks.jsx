@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Accordion";
+import imgItem from "../assets/ev-logo.png";
 
 const HyperAccordion = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -11,42 +12,73 @@ const HyperAccordion = () => {
   const items = [
     {
       title: "Small Trucks",
-      content: [],
-      listitem: [
-        "Eicher small trucks deliver excellent mileage, strong performance, and low operating costs.",
-        "Built for reliability and high payload efficiency, they are ideal for city deliveries and last-mile logistics.",
+      items: [
+        {
+          content: ["Pro X - "],
+          listitem: ["GVW - 3 Ton", "GVM - 3.5 Ton"],
+          image: imgItem, // add your image path here
+        },
+        {
+          content: ["Pro X - Diesel"],
+          listitem: ["GVW - 3 Ton", "GVM - 3.5 Ton"],
+        },
       ],
     },
     {
       title: "Light & Medium Duty Trucks",
-      content: [],
-      listitem: [
-        "Eicher Light & Medium Trucks offer powerful performance, high fuel efficiency, and excellent durability for daily commercial operations.",
-        "Designed for higher payloads and long-distance reliability, they ensure lower maintenance costs and maximum business productivity.",
+      items: [
+        {
+          content: ["Varients"],
+          listitem: [
+            "Sub 5 Ton",
+            "Light Duty",
+            "Medium Duty",
+            "Tipper",
+            "Electric Truck",
+          ],
+        },
       ],
     },
     {
       title: "Heavy Duty Trucks",
-      content: [],
-      listitem: [
-        "The BS VI Eicher Pro Heavy Duty trucks (18.5–55T GVW) are engineered for superior performance and long-term reliability.",
-        "They deliver maximum business efficiency by boosting productivity and reducing overall operating costs.",
+      items: [
+        {
+          content: ["Varients"],
+          listitem: ["Haulage", "Tipper", "Tractor Trailer"],
+        },
       ],
     },
     {
       title: "Buses",
-      content: [],
-      listitem: [
-        "The all-new Eicher BSVI Bus Range delivers smart, comfortable, and advanced performance with excellent fuel efficiency and profitability.",
-        "Available in School, Staff, Tourist and Route Permit options, Eicher offers the perfect bus for every transport need.",
+      items: [
+        {
+          content: ["Varients"],
+          listitem: [
+            "School Bus",
+            "Staff Bus",
+            "Route Permit",
+            "Bus Chassis",
+            "Electric Bus",
+          ],
+        },
       ],
     },
     {
-      title: "Uptime Services",
-      content: [],
-      listitem: [
-        "Eicher ensures superior uptime with reliable vehicles, trained experts, and advanced digitised support services.",
-        "By delivering over 98% uptime, Eicher helps your transport business stay efficient, competitive, and always on the move.",
+      title: "Service Contact",
+      items: [
+        {
+          content: ["+91 96291 40515"],
+          listitem: [],
+        },
+      ],
+    },
+    {
+      title: "Sales Contact",
+      items: [
+        {
+          content: ["+91 89258 81267"],
+          listitem: [],
+        },
       ],
     },
   ];
@@ -81,21 +113,35 @@ const HyperAccordion = () => {
           </button>
           {openIndex === index && (
             <div className="p-4 text-gray-600 border-t">
-              {/* Content paragraphs */}
-              {item.content?.map((para, i) => (
-                <p key={i} className="mb-2">
-                  {para}
-                </p>
-              ))}
+              {item.items?.map((sub, idx) => (
+                <div key={idx} className="mb-4">
+                 
+                  {/* Content */}
+                  {sub.content?.map((para, i) => (
+                    <p key={i} className="mb-2 flex items-center gap-2">
+                      {para}
 
-              {/* Bullet List */}
-              {item.listitem && (
-                <ul className="list-disc pl-6 mt-2 space-y-1">
-                  {item.listitem.map((point, j) => (
-                    <li key={j}>{point}</li>
+                      {/* Image placed right after text */}
+                      {i === 0 && sub.image && (
+                        <img
+                          src={sub.image}
+                          alt={para}
+                          className="w-10 h-10 inline-block"
+                        />
+                      )}
+                    </p>
                   ))}
-                </ul>
-              )}
+
+                  {/* List */}
+                  {sub.listitem && (
+                    <ul className="list-disc pl-6 mt-2 space-y-1">
+                      {sub.listitem.map((point, j) => (
+                        <li key={j}>{point}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
             </div>
           )}
         </div>

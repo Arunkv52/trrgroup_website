@@ -10,11 +10,16 @@ const HyperAccordion = () => {
 
   const items = [
     {
-      title: "Engineered for Modern Infrastructure",
+      title: "Product Lineup",
       content: [],
       listitem: [
-        "AJAX concrete equipment is built to meet the demands of modern infrastructure work, from housing projects to bridges, roads, and metro construction.",
-        "With innovations like load-cell weighing, smart fleet monitoring, and IoT-enabled systems, AJAX delivers superior reliability and productivity.",
+        " Self-Loading Concrete Mixer",
+        "Batching Plant",
+        "Transit Mixer",
+        "Concrete Pump",
+        "Boom Pump",
+        "Self-Propelled Boom Pump",
+        "Concrete Slip-Form Paver",
       ],
     },
     {
@@ -26,12 +31,9 @@ const HyperAccordion = () => {
       ],
     },
     {
-      title: "Your Journey, Our Priority",
-      content: [],
-      listitem: [
-        "AJAX’s nationwide support network and skilled service engineers ensure quick, reliable maintenance whenever and wherever needed.",
-        "With 24×7 customer care and multiple service options, AJAX guarantees maximum machine uptime and enhanced customer satisfaction.",
-      ],
+      title: "Contact",
+      content: ['+91 89392 22828'],
+      listitem: [],
     },
   ];
 

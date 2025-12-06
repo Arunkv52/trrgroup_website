@@ -10,9 +10,16 @@ const HyperAccordion = () => {
 
   const items = [
     {
-      title: "Expert Guidance, Always",
+      title: "Branch We Deal",
       content: [
-        "Our team helps you choose the ideal John Deere tractor, whether it’s for heavy-duty tasks or agile orchard work.",
+       
+      ],
+      listitem: [
+        "John Deere Tractors",
+        "Dasmesh Harvester",
+        "BKT Tyres",
+        "Stihl Equipments",
+        
       ],
     },
     {
@@ -20,12 +27,27 @@ const HyperAccordion = () => {
       content: [
         "Hands‑free straight‑path steering that improves field coverage and reduces operator fatigue—all your operations made smarter.",
       ],
+       listitem: [
+        
+      ],
     },
     {
       title: "Why Choose us",
       content: [
         "Selecting a John Deere tractor from TRR Tractors means investing in a legacy of durability, advanced engineering, and fuel efficiency—backed locally by our deep knowledge and support network.",
       ],
+       listitem: [
+        
+      ]
+    },
+     {
+      title: "Contact us",
+      content: [
+        '9176725499'
+      ],
+       listitem: [
+        
+      ]
     },
   ];
 
@@ -58,7 +80,23 @@ const HyperAccordion = () => {
             </svg>
           </button>
           {openIndex === index && (
-            <div className="p-4 text-gray-600 border-t">{item.content}</div>
+            <div className="p-4 text-gray-600 border-t">
+              {/* Content paragraphs */}
+              {item.content?.map((para, i) => (
+                <p key={i} className="mb-2">
+                  {para}
+                </p>
+              ))}
+
+              {/* Bullet List */}
+              {item.listitem && (
+                <ul className="list-disc pl-6 mt-2 space-y-1">
+                  {item.listitem.map((point, j) => (
+                    <li key={j}>{point}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
           )}
         </div>
       ))}

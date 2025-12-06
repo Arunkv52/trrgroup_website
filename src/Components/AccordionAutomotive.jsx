@@ -10,18 +10,17 @@ const HyperAccordion = () => {
 
   const items = [
     {
-      title: "Brands We Deal",
-      content: [
-        "TRR Automotive is built on a knowledgeable, friendly team dedicated to customer satisfaction. Our decade of returning customers reflects our commitment to quality service.",
-        "We focus on:",
-      ],
+      title: "Product Line Up",
+      content: [],
       listitem: [
-        "Professionalism",
-        "Teamwork",
-        "Continuous training & development",
-        "A positive work environment",
-        "Strong employee engagement",
-        "Ongoing improvement",
+        "Backhoe Loaders",
+        "Tracked Excavators",
+        "Wheel Loaders",
+        "Compactors",
+        "Skid Steer Loaders",
+        "Telehandlers",
+        "Agrimax",
+        "Genset",
       ],
     },
     {
@@ -59,6 +58,15 @@ const HyperAccordion = () => {
 
         "No matter the size or type of application, our team ensures you get the right parts fast, so you can get back to work with minimal downtime.",
       ],
+    },
+    {
+      title: "Contact",
+      content: [
+        "+91 91769 17345",
+        'CRM : +91 99625 42828'
+      ],
+      listitem: [
+       ],
     },
   ];
 

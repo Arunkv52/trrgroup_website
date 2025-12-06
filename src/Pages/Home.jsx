@@ -45,17 +45,18 @@ const Home = () => {
             About TRR Group
           </h3>
           <h6 className="pb-5 text-white text-justify">
-            Driving India’s Growth in Agriculture and Infrastructure Since 2001,
+            Driving Growth in Agriculture and Infrastructure Since 2001,
             TRR Tractors has built a strong reputation in the agricultural
             sector by providing expert product advice, dependable after-sales
             support, and unmatched customer trust. Our dedication has earned us
-            a loyal customer base and paved the way for continuous growth. In
+            a loyal customer base and paved the way for continuous growth.
+          </h6>
+          <h6  className="pb-5 text-white text-justify"> In
             2007, we expanded with TRR Automotive, partnering with global leader
             JCB to deliver top-quality construction, quarry, and earthmoving
             equipment. Backed by over a decade of industry expertise, we are
             poised to capitalize on India’s booming infrastructure and
-            construction markets.
-          </h6>
+            construction markets.</h6>
           <h6 className="pb-5 text-white text-justify">
             In 2025, we have further expanded with Volvo Eicher, one of the
             leading Commercial Vehicle brand in India to cater our customers
