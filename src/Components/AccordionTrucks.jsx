@@ -21,10 +21,7 @@ const HyperAccordion = () => {
         {
           content: ["Pro X - Diesel"],
           listitem: ["GVW - 3 Ton", "GVM - 3.5 Ton"],
-        },{
-          content: ["Contact No: +91 89393 62828"],
-          listitem: [],
-        },
+        }
       ],
     },
     {
@@ -78,9 +75,14 @@ const HyperAccordion = () => {
       title: "Sales Contact",
       items: [
         {
-          content: ["+91 89258 81267"],
+          content: ["SCV: +91 89393 62828"],
           listitem: [],
         },
+        {
+          content: ["CV : +91 89258 81267"],
+          listitem: [],
+        },
+        
       ],
     },
   ];
