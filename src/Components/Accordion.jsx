@@ -10,7 +10,7 @@ const HyperAccordion = () => {
 
   const items = [
     {
-      title: "Branch We Deal",
+      title: "Brand We Deal",
       content: [
        
       ],

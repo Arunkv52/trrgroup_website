@@ -34,7 +34,6 @@ const HyperAccordion = () => {
             "Light Duty",
             "Medium Duty",
             "Tipper",
-            "Electric Truck",
           ],
         },
       ],
@@ -58,7 +57,7 @@ const HyperAccordion = () => {
             "Staff Bus",
             "Route Permit",
             "Bus Chassis",
-            "Electric Bus",
+   
           ],
         },
       ],

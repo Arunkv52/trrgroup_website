@@ -13,7 +13,6 @@ const HyperAccordion = () => {
       title: "Product Lineup",
       content: [],
       listitem: [
-        'Models',
         " Self-Loading Concrete Mixer",
         "Batching Plant",
         "Transit Mixer",

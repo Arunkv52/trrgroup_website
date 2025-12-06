@@ -130,7 +130,7 @@ const Home = () => {
       <div className="nxt-video flex flex-wrap md:px-25 px-5 py-15">
         <div className="next-left w-full md:w-1/2 p-2">
           <h3 className="text-2xl font-semibold md:text-[25px] pb-0 md:pb-0">
-            TRR Trucks and Buses
+            TRR Trucks and Buses Pvt Ltd
           </h3>
           <AccordionTrucks />
           <div className="py-5">
