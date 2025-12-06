@@ -11,15 +11,12 @@ const HyperAccordion = () => {
   const items = [
     {
       title: "Brand We Deal",
-      content: [
-       
-      ],
+      content: [],
       listitem: [
-        "John Deere Tractors",
-        "Dasmesh Harvester",
-        "BKT Tyres",
-        "Stihl Equipments",
-        
+        "<strong>John Deere Tractors</strong>",
+        "<strong>Dasmesh Harvester</strong>",
+        "<strong>BKT Tyres</strong>",
+        "<strong>Stihl Equipments</strong>",
       ],
     },
     {
@@ -27,27 +24,19 @@ const HyperAccordion = () => {
       content: [
         "Hands‑free straight‑path steering that improves field coverage and reduces operator fatigue—all your operations made smarter.",
       ],
-       listitem: [
-        
-      ],
+      listitem: [],
     },
     {
       title: "Why Choose us",
       content: [
         "Selecting a John Deere tractor from TRR Tractors means investing in a legacy of durability, advanced engineering, and fuel efficiency—backed locally by our deep knowledge and support network.",
       ],
-       listitem: [
-        
-      ]
+      listitem: [],
     },
-     {
+    {
       title: "Contact us",
-      content: [
-        '9176725499'
-      ],
-       listitem: [
-        
-      ]
+      content: ["+91 9176725499"],
+      listitem: [],
     },
   ];
 
@@ -92,7 +81,7 @@ const HyperAccordion = () => {
               {item.listitem && (
                 <ul className="list-disc pl-6 mt-2 space-y-1">
                   {item.listitem.map((point, j) => (
-                    <li key={j}>{point}</li>
+                    <li key={j} dangerouslySetInnerHTML={{ __html: point }} />
                   ))}
                 </ul>
               )}

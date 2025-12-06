@@ -73,8 +73,8 @@ function Responsive() {
               <div className="SliderItem-3">
                 <a href="#">
                   <div className="slider-content relative top-10  md:top-1/12 left-2 md:left-2 p-2 text-white">
-                    <p className="text-[30px] pb-2">TRR Trucks & Buses</p>
-                    <h3 className="text-[15px] md:text-[16px] relative md:bottom-[-250px]">
+                    <p className="text-[30px] pb-2">TRR Trucks & Buses Pvt Ltd</p>
+                    <h3 className="text-[15px] md:text-[16px] relative md:bottom-[-200px]">
                       Volvo Eicher - is the consistanly growing strong
                       commercial vehicle player in indian industry and
                       unbeatable fuel efficiency.

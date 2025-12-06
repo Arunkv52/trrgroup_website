@@ -63,7 +63,7 @@ const HyperAccordion = () => {
       title: "Contact",
       content: [
         "+91 91769 17345",
-        'Services : +91 99625 42828'
+        'CRM : +91 99625 42828'
       ],
       listitem: [
        ],
